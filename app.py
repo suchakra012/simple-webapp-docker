@@ -10,5 +10,9 @@ def main():
 def hello():
     return 'I am good, how about you?'
 
+@app.route('/where do you live')
+def hello():
+    return 'I live in India'
+
 if __name__ == "__main__":
     app.run()
